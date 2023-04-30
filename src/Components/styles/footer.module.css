@@ -1,0 +1,14 @@
+.footer_container{
+    background-color: black;
+    height: 50px;
+    align-items: end;
+}
+
+.footer_container p{
+    margin: 0;
+    padding: 0;
+    margin-left: 3%;
+    color: azure;
+    text-align: center;
+    vertical-align: bottom;
+}

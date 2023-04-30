@@ -1,0 +1,46 @@
+.navbar_container{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    /*border: 2px solid green;*/
+}
+
+.navbar_logo{
+ /*border: 2px solid black;*/
+ flex: 1;
+}
+
+/*Substituir H2 pela logo*/
+.navbar_logo h2{
+    margin-left: 50px;
+    color: white;
+}
+
+.navbar_links{
+    /*border: 2px solid blue;*/
+    flex: 1;
+}
+
+.navbar_links ul{
+    height: auto;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin-right: 15%;
+    margin-top: 25px;
+}
+
+.navbar_links a{
+    padding: 20px;
+    margin: 15px;
+    transition: 0.5s;
+    color: white;
+}
+
+.navbar_links a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
