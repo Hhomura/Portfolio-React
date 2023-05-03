@@ -1,0 +1,19 @@
+.skills_container{
+    background-color: black;
+    min-height: 500px;
+}
+
+.skills_container h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.cardskills_container{
+    /*border: 2px solid green;*/
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

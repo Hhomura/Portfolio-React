@@ -1,0 +1,45 @@
+.cardskills_card{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 17%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cardskills_card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.cardskills_card_txt{
+    /*border: 2px solid white;*/
+    width: 100%;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.cardskills_card_txt h2{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.cardskills_card_txt p{
+    text-align: center;
+    color: white;
+    height: 80%;
+    width: auto;
+    overflow-y: scroll;
+}
+
+.cardskills_card_txt p::-webkit-scrollbar{
+    display: none;
+    width: 0;
+}
+
+

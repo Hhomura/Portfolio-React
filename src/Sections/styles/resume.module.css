@@ -1,0 +1,106 @@
+.resume_container{
+    /*background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 2%;
+
+}
+.resume_container_title{
+    color:black ;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.resume_container_sub
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.resume_foto{
+    /*border: 2px solid blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.resume_foto img{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 10%;
+    box-shadow: 2px 5px 4px 5px #484848;
+}
+
+.resume_resumetxt{
+    /*border: 2px solid red;*/
+    width: 70%;
+    display: flex;
+}
+
+.resume_resumetxt_sub{
+    width: 70%;
+    margin-top: 3%;
+}
+
+
+.resume_resumetxt h2{
+    text-align: center;
+    color: black;
+}
+
+.resume_resumetxt p{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.resume_foto, .resume_resumetxt{
+    padding: 40px;
+    flex: 1;
+    margin: 20px;
+}
+
+.slideInLeft{
+    animation-name: slideLeftinRight;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    transition: 0.8s;
+}
+
+.slideInRigth{
+    animation-name: slideRightInLeft;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    transition: 0.8s;
+}
+@keyframes slideLeftinRight{
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    from{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+}
+
+@keyframes slideRightInLeft{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    from{
+        opacity: 0;
+        transform: translateX(150px);
+    }
+}

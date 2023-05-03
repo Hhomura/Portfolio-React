@@ -1,0 +1,8 @@
+.projects_container{
+    min-height: 500px;
+    background-color: white;
+}
+
+.projects_container h1{
+    text-align: center;
+}
